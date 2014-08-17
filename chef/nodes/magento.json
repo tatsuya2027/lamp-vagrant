@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "recipe[localedef]",
+    "recipe[yum]",
+    "recipe[remi]",
+    "recipe[yum]",
+    "recipe[yum-epel]",
+    "recipe[yum-ius]",
+    "recipe[lamp]"
+
+  ],
+  "automatic": {
+    "ipaddress": "magento"
+  }
+}
