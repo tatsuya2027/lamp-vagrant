@@ -14,7 +14,7 @@ gem install chef
 ```
 #### knife-solo
 ```bash
-gem install knife -solo
+gem install knife-solo
 ```
 ## 各種ソースコードをclone
 適当なディレクトリで以下を実行
